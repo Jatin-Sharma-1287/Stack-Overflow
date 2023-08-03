@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(
-      "mongodb+srv://alokbugalia:12345@cluster0.ib28buk.mongodb.net/stack-overflow-clone"
+      "mongodb+srv://2020csb1069:12345@cluster0.n2hb0ey.mongodb.net/stack-overflow-clone"
     );
 
     console.log("Database connected Successfully!");
